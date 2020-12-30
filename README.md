@@ -19,4 +19,4 @@
 9. FINISH
 
 # Compile CSS & JS
-Run ```npm rund dev``` in Bash  
+Run ```npm run dev``` in Bash  
