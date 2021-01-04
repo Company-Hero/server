@@ -21,14 +21,16 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+
+//
+// AUTH
+//
+
 require __DIR__.'/auth.php';
 
 
-
 //
-// For Design Test
+// STORAGE
 //
 
-Route::get('/testlayout', function () {
-    return view('testlayout');
-});
+require __DIR__.'/storage.php';
